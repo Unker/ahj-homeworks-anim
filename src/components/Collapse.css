@@ -1,10 +1,35 @@
-.collapsed {
-    display: block;
+.collapse-button{
+    padding: 10px 20px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Добавляем плавное изменение цвета */
+
+    &:hover{
+        background-color: #0056b3;
+    }
 }
 
 .collapse-content {
-    display: none;
-    /* border: ; */
-    border-radius: 10px;
+    /* -webkit-transition: max-height 1s; 
+    -moz-transition: max-height 1s; 
+    -ms-transition: max-height 1s; 
+    -o-transition: max-height 1s;  */
+    transition: max-height 1s ease-in-out;
+    background: #e5feff;
+    overflow: hidden;
+    max-height: 0;
+}
 
+.collapse-inner {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.collapse-content.collapsed {
+    max-height: 300px;
 }
