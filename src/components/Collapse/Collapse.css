@@ -1,11 +1,11 @@
-.collapse-button{
+.collapse-button {
     padding: 10px 20px; 
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Добавляем плавное изменение цвета */
+    transition: background-color 0.3s; 
 
     &:hover{
         background-color: #0056b3;
@@ -13,10 +13,6 @@
 }
 
 .collapse-content {
-    /* -webkit-transition: max-height 1s; 
-    -moz-transition: max-height 1s; 
-    -ms-transition: max-height 1s; 
-    -o-transition: max-height 1s;  */
     transition: max-height 1s ease-in-out;
     background: #e5feff;
     overflow: hidden;
