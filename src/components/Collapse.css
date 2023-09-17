@@ -1,0 +1,10 @@
+.collapsed {
+    display: block;
+}
+
+.collapse-content {
+    display: none;
+    /* border: ; */
+    border-radius: 10px;
+
+}
