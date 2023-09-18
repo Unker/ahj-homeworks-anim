@@ -1,5 +1,5 @@
 import CollapsibleContainer from '../components/Collapse/Collapse';
-import CallbackChatContainer from '../components/CallbackChat/CallbackChat'
+import CallbackChatContainer from '../components/CallbackChat/CallbackChat';
 
 const container = document.querySelector('.container');
 
@@ -9,7 +9,7 @@ const testText = `
 3
 4
 5
-`
+`;
 const collapsible = new CollapsibleContainer(container, testText);
 const collapsibleEl = collapsible.getDOMElement();
 

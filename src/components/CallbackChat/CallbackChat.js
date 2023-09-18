@@ -59,7 +59,6 @@ export default class CallbackChatContainer {
     this.button.classList.add('chat-button-hide');
     this.chatWindow.classList.remove('chat-window-close');
     this.chatWindow.classList.add('chat-window-show');
-
   }
 
   closeChatForm() {
